@@ -1,0 +1,12 @@
+{
+    "name": "superbull/socialite-zh",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Deng Zhi Cheng",
+            "email": "superbulldeng@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
