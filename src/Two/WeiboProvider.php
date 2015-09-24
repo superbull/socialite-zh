@@ -88,7 +88,7 @@ class WeiboProvider extends AbstractProvider implements ProviderInterface
             'id'        => $user['idstr'], 
             'nickname'  => $user['screen_name'], 
             'name'      => $user['name'],
-            'email'     => $user['email'], 
+            'email'     => isset($user['email']) ? $user['email'] : null, 
             'avatar'    => $user['avatar_large'],
         ]);
     }
